@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 import { ConfigProvider } from '../../providers/config.provider';
 import { DatabaseProvider } from '../../providers/database.provider';
 import { NavController } from 'ionic-angular';
-import { LessonPage } from '../lesson/lesson';
+import { CategoryPage } from '../category/category';
 import { PaymentPage } from '../payment/payment';
 
 @Component({
@@ -14,7 +14,7 @@ import { PaymentPage } from '../payment/payment';
         <ion-toolbar class="background--blue">
 
             <ion-title>
-                Programs
+                Meal Categories
             </ion-title>
 
             <tips-link></tips-link>
@@ -27,8 +27,9 @@ import { PaymentPage } from '../payment/payment';
         <ion-list class="image-list">
 
             <ion-item *ngFor="let category of categories" 
-                class="image-list__item"
+                class="image-list__item bg"
                 (click)="goTo(category.id)" 
+                [ngStyle]="{'background-image': 'url(assets/imgs/list/' + category.img + ')'}"
                 [ngClass]="category.img_class">
                 <h2>{{category.name}}</h2>
                 <p>{{category.desc}}</p>
@@ -53,7 +54,7 @@ export class HomePage {
         public auth: AuthProvider,
         public config: ConfigProvider,
         public db: DatabaseProvider,
-        public navCtrl: NavController,
+        public navCtrl: NavController
     ) {
         this.categories = this.db.getCategories();
     }
@@ -63,7 +64,7 @@ export class HomePage {
     }
 
     goTo(categoryId) {
-        this.navCtrl.push(LessonPage, { categoryId });
+        this.navCtrl.push(CategoryPage, { categoryId });
     }
 
     async logout() {

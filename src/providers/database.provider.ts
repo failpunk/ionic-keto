@@ -9,31 +9,31 @@ export class DatabaseProvider {
                 id: 1,
                 name: 'Breakfast Foods',
                 desc: 'Start the Morning Right With 23 Breakfast Receipes',
-                img: 'ketoSausage.jpg'
+                img: 'advanced-basics.jpg'
             },
             {
                 id: 2,
                 name: 'Lunch',
                 desc: 'Name recognition, Sit, Down',
-                img: 'ketoPancake.jpg'
+                img: 'advanced-tricks.jpg'
             },
             {
                 id: 3,
                 name: 'Dinner',
                 desc: 'Come, Place, Stay, Leave It',
-                img: 'jalapenoPopper.jpg'
+                img: 'basics.jpg'
             },
             {
                 id: 4,
                 name: 'Snacks',
                 desc: 'Touch, Kiss, High Five, Spin',
-                img: 'ketoSausage.jpg'
+                img: 'fun-tricks.jpg'
             },
             {
                 id: 5,
                 name: 'Desserts',
                 desc: 'Roll Over, Handshake',
-                img: 'ketoPancake.jpg'
+                img: 'house-training.jpg'
             }
         ];
     }
@@ -42,7 +42,7 @@ export class DatabaseProvider {
         return this.getCategories().find(c => c.id === id);
     }
 
-    getLessons() {
+    getMeals() {
         return [
             {
                 id: 1,
@@ -126,12 +126,12 @@ export class DatabaseProvider {
         ];
     }
 
-    getLesson(id) {
-        return this.getLessons().find(l => l.id === id);
+    getMeal(id) {
+        return this.getMeals().find(l => l.id === id);
     }
 
-    getLessonsForCategory(id) {
-        return this.getLessons().filter(l => l.category_id === id);
+    getMealsForCategory(id) {
+        return this.getMeals().filter(l => l.category_id === id);
     }
 
     getTips() {

@@ -6,7 +6,7 @@ import { NavController, NavParams } from 'ionic-angular';
 import { TrickPage } from '../trick/trick';
 
 @Component({
-    selector: 'page-lesson',
+    selector: 'category-page',
     template: `
     <ion-header>
         <ion-navbar class="background--blue">
@@ -15,35 +15,33 @@ import { TrickPage } from '../trick/trick';
                 {{categoryName}}
             </ion-title>
 
-            <tips-link></tips-link>
-
         </ion-navbar>
     </ion-header>
 
     <ion-content>
 
-        <ion-list class="image-list" *ngIf="lessons.length">
-            <ion-item *ngFor="let lesson of lessons" 
-                (click)="goTo(lesson.id)" 
-                [ngStyle]="{'background-image': 'url(assets/imgs/lesson/' + lesson.img + ')'}"
+        <ion-list class="image-list" *ngIf="meals.length">
+            <ion-item *ngFor="let meal of meals" 
+                (click)="goTo(meal.id)" 
+                [ngStyle]="{'background-image': 'url(assets/imgs/meal/' + meal.img + ')'}"
                 class="image-list__item bg">
 
-                <h2>{{lesson.name}} <span>( {{lesson.difficulty}} )</span></h2>
-                <p>{{lesson.items_needed}}</p>
+                <h2>{{meal.name}} <span>( {{meal.difficulty}} )</span></h2>
+                <p>{{meal.items_needed}}</p>
 
             </ion-item>
         </ion-list>
 
-        <div class="coming-soon bg bg--coming-soon" *ngIf="lessons.length < 1">
-            <h1>Lessons Comming Soon</h1>
+        <div class="coming-soon bg bg--coming-soon" *ngIf="meals.length < 1">
+            <h1>meals Comming Soon</h1>
         </div>
 
     </ion-content>
     `
 })
-export class LessonPage {
+export class CategoryPage {
     category: any = {};
-    lessons: any = [];
+    meals: any = [];
 
     constructor(
         public analytics: AnalyticsProvider,
@@ -53,9 +51,7 @@ export class LessonPage {
         public params: NavParams
     ) {
         this.category = this.db.getCategory(this.categoryId);
-        this.lessons = this.db.getLessonsForCategory(this.categoryId);
-
-        console.log('this.lessons', this.lessons);
+        this.meals = this.db.getMealsForCategory(this.categoryId);
     }
 
     get categoryId() {
@@ -67,10 +63,10 @@ export class LessonPage {
     }
 
     ionViewDidEnter() {
-        this.analytics.track('LessonPage', { category: this.categoryName });
+        this.analytics.track('mealPage', { category: this.categoryName });
     }
 
-    goTo(lessonId) {
-        this.navCtrl.push(TrickPage, { lessonId });
+    goTo(mealId) {
+        this.navCtrl.push(TrickPage, { mealId });
     }
 }

@@ -4,7 +4,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { HomePageModule } from '../pages/home/home.module';
-import { LessonPageModule } from '../pages/lesson/lesson.module';
+import { CategoryPageModule } from '../pages/category/category.module';
 import { PaymentPageModule } from '../pages/payment/payment.module';
 import { TipsPageModule } from '../pages/tips/tips.module';
 import { TrickPageModule } from '../pages/trick/trick.module';
@@ -31,7 +31,7 @@ import { PrivacyModal } from '../pages/payment/privacy-modal';
     imports: [
         BrowserModule,
         HomePageModule,
-        LessonPageModule,
+        CategoryPageModule,
         PaymentPageModule,
         TipsPageModule,
         TrickPageModule,
