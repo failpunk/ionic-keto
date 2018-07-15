@@ -7,8 +7,8 @@ export class ConfigProvider {
     public WEBSITE_URL = 'http://www.ketokloneapp.com';
     public CONTACT_EMAIL = 'contact@ketokloneapp.com';
 
-    public MIXPANEL_DEV = 'a5b2be6d7255a056f10303dd5c0b2f7c';
-    public MIXPANEL_PROD = 'fd754fa83888457dde586fe166e4a7ee';
+    public MIXPANEL_DEV = '2330db6d4a804328bf96a973ff16399c';
+    public MIXPANEL_PROD = 'fdfba61c1cbb41e89df4452c7e915761';
 
     public PARSE_APP_ID = '40v1BI0eVMjYIgZpbppOmDW08KDPWKLkjETqoNjP';
     public PARSE_JAVASCRIPT_KEY = 'q8hxBQiVTsdSs2SftDl9O2KiDWL8R5qjTJNLKjEP';
