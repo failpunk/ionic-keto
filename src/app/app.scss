@@ -1,0 +1,285 @@
+// http://ionicframework.com/docs/theming/
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+@import "_variables.scss";
+@import "components/all";
+
+h1 {
+    font-weight: 300;
+}
+
+h2, h3 {
+    color: $color-primary;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-bottom: .3rem;
+}
+
+h6 {
+    color: $color-500-gray;
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: .3rem;
+    font-weight: 400;
+}
+
+.heading {
+    &--h1 {
+        font-size: 3rem;
+        font-weight: 300;
+    }
+
+    &--h2 {
+        font-size: 2.7rem;
+        font-weight: 400;
+    }
+
+    &--h3 {
+        font-size: 2.3rem;
+        font-weight: 400;
+    }
+
+    &--h4 {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+}
+
+.font {
+    &--mega {
+        color: $color-700-gray;
+        font-size: 6rem;
+        font-weight: 400;
+    }
+
+    &--title {
+        color: $color-primary;
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    &--heading {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.grid-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.color {
+    &--primary {
+        color: $color-primary;
+    }
+
+    &--gray {
+        color: $color-700-gray;
+    }
+}
+
+.light-bg {
+    background-color: $color-100-purple;
+}
+
+.onboarding-theme {
+    background-color: #21C8D5;
+    color: white;
+
+    .toolbar-background {
+        background-color: #21C8D5;
+    }
+
+    .toolbar-title, .back-button, .back-button-icon, .heading, .font--heading {
+        color: white;
+    }
+
+    .page-heading {
+        color: white;
+        font-weight: 400;
+    }
+
+    h1 {
+        color: white;
+        font-size: 4rem;
+        font-weight: 400;
+    }
+
+    ion-range {
+        color: $color-primary;
+
+        ion-label {
+            font-weight: 500;
+        }
+    }
+
+    ion-segment {
+        .segment-button {
+            color: white;
+            border: 1px solid white;
+            font-weight: 600;
+        }
+
+        .segment-activated {
+            background-color: white !important;
+            color: $color-primary !important;
+        }
+    }
+}
+
+.btn {
+    &--white {
+        border: 2px solid white;
+    }
+}
+
+// Typeography
+
+.page-heading {
+    color: $color-primary;
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.center-container {
+    text-align: center;
+
+    &__target {
+        top: 30vh;
+    }
+}
+
+.left {
+    text-align: left;
+}
+
+.top {
+    left: 0;
+    padding: 0 2rem;
+    position: absolute;
+    top: 40vh;
+}
+
+.bottom {
+    bottom: 0;
+    color: white;
+    left: 0;
+    padding: 0 0 2rem;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+ul {
+    &.clean {
+        padding: 0;
+        list-style: none;
+    }
+}
+
+.blockquote {
+    font-size: 2.3rem;
+    font-style: italic;
+    color: $color-800-gray;
+}
+
+picture {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+ion-header {
+    ion-icon[name="settings"] {
+        font-size: 2.5rem;
+    }
+}
+
+.mf-content-padding {
+    padding: 0 1rem;
+}
+
+.divider {
+    height: 1px;
+    border-bottom: 2px solid $color-300-gray;
+}
+
+button {
+    &.small {
+        height: 1.8em;
+    }
+}
+
+.progress {
+    width: 100%;
+    height: 5px;
+}
+
+.progress-wrap {
+    border: 1px solid $color-500-blue;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    .progress-bar {
+        background-color: $color-500-blue;
+    }
+}
+
+.card-ios {
+    border-radius: 5px;
+}
+
+.achievement-block {
+    color: $color-700-purple;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+
+    &__item {
+        align-items: center;
+        display: flex;
+        margin-bottom: .5rem;
+
+        ion-icon {
+            font-size: 2rem;
+            margin-right: .5rem;
+        }
+
+        span {
+            font-size: 4vw;
+            font-weight: 500;
+        }
+    }
+
+    &--completed {
+        color: $color-primary;
+    }
+}

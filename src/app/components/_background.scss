@@ -1,0 +1,41 @@
+.bg {
+    background-size: cover;
+
+    &--house-training {
+        background-image: url("../assets/imgs/list/house-training.jpg");
+    }
+
+    &--basics {
+        background-image: url("../assets/imgs/list/basics.jpg");
+    }
+
+    &--advanced-basics {
+        background-image: url("../assets/imgs/list/advanced-basics.jpg");
+    }
+
+    &--fun-tricks {
+        background-image: url("../assets/imgs/list/fun-tricks.jpg");
+    }
+
+    &--advanced-tricks {
+        background-image: url("../assets/imgs/list/advanced-tricks.jpg");
+    }
+
+    &--party-tricks {
+        background-image: url("../assets/imgs/list/party-tricks.jpg");
+    }
+
+    &--useful-tricks {
+        background-image: url("../assets/imgs/list/useful-tricks.jpg");
+    }
+
+    &--coming-soon {
+        background-image: url("../assets/imgs/coming-soon.jpg");
+        background-position: center;
+    }
+
+    &--tips {
+        background-image: url("../assets/imgs/tips-background.jpg");
+        background-position: center;
+    }
+}

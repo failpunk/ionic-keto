@@ -1,0 +1,24 @@
+.background {
+    ion-buttons button, ion-buttons a {
+        background-color: transparent;
+    }
+
+    &--blue {
+        .toolbar-background {
+            background-color: $color-900-blue;
+        }
+
+        .toolbar-title, .bar-button-default {
+            color: white;
+        }
+
+        button {
+            background: transparent;
+        }
+
+        svg {
+            fill: white;
+            height: 2.5rem;
+        }
+    }
+}
