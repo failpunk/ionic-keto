@@ -7,7 +7,7 @@ import { HomePageModule } from '../pages/home/home.module';
 import { CategoryPageModule } from '../pages/category/category.module';
 import { PaymentPageModule } from '../pages/payment/payment.module';
 import { TipsPageModule } from '../pages/tips/tips.module';
-import { TrickPageModule } from '../pages/trick/trick.module';
+import { MealPageModule } from '../pages/meal/meal.module';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -34,7 +34,7 @@ import { PrivacyModal } from '../pages/payment/privacy-modal';
         CategoryPageModule,
         PaymentPageModule,
         TipsPageModule,
-        TrickPageModule,
+        MealPageModule,
 
         IonicModule.forRoot(MyApp)
     ],

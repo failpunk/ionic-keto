@@ -17,8 +17,6 @@ import { PaymentPage } from '../payment/payment';
                 Meal Categories
             </ion-title>
 
-            <tips-link></tips-link>
-
         </ion-toolbar>
     </ion-header>
 

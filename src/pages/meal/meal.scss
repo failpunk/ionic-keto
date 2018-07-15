@@ -1,0 +1,94 @@
+page-meal {
+    .scroll-content {
+        background-color: $color-100-gray;
+    }
+
+    .item-inner {
+        border-bottom: none !important;
+    }
+
+    .image-list {
+        &__item {
+            min-height: 20rem;
+        }
+    }
+
+    .wrapit {
+        margin-top: -5rem;
+        position: absolute;
+    }
+
+    h2 {
+        color: $color-600-gray;
+        font-weight: 500;
+        padding-left: 1.5rem;
+    }
+
+    .card {
+        padding-bottom: 1rem;
+        margin-bottom: 3rem;
+
+        ion-card-header {
+            font-size: 2rem;
+            font-weight: 400;
+            white-space: inherit;
+        }
+
+        ion-card-content {
+            color: $color-500-gray;
+            font-size: 1.6rem;
+            line-height: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        h3 {
+            font-size: 2rem;
+            padding-left: 1.5rem;
+        }
+    }
+
+    .stars {
+        margin-bottom: 2rem;
+        padding-left: 1.5rem;
+
+        rating-stars {
+            svg {
+                width: 9rem;
+            }
+        }
+    }
+
+    .stats {
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 2rem;
+
+        &__item {
+            flex: 1 1 auto;
+            text-align: center;
+
+            h4 {
+                color: $color-400-gray;
+                margin-bottom: .5rem;
+            }
+
+            span {
+                color: $color-700-gray;
+                font-size: 2.3rem;
+            }
+        }
+
+        .stats__item + .stats__item {
+            border-left: 1px solid $color-200-gray;
+        }
+    }
+
+    .ingredients {
+        &__item {
+            color: $color-700-gray;
+            font-size: 1.6rem;
+            line-height: 2.5rem;
+        }
+    }
+}

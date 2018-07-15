@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { TrickPage } from './trick';
+import { MealPage } from './meal';
 
 import { ComponentsModule } from '../../components/components.module';
 
 @NgModule({
-    declarations: [TrickPage],
-    imports: [ComponentsModule, IonicPageModule.forChild(TrickPage)]
+    declarations: [MealPage],
+    imports: [ComponentsModule, IonicPageModule.forChild(MealPage)]
 })
-export class TrickPageModule {}
+export class MealPageModule {}

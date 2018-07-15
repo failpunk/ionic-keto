@@ -3,10 +3,10 @@ import { Component } from '@angular/core';
 import { ConfigProvider } from '../../providers/config.provider';
 import { DatabaseProvider } from '../../providers/database.provider';
 import { NavController, NavParams } from 'ionic-angular';
-import { TrickPage } from '../trick/trick';
+import { MealPage } from '../meal/meal';
 
 @Component({
-    selector: 'category-page',
+    selector: 'page-category',
     template: `
     <ion-header>
         <ion-navbar class="background--blue">
@@ -67,6 +67,6 @@ export class CategoryPage {
     }
 
     goTo(mealId) {
-        this.navCtrl.push(TrickPage, { mealId });
+        this.navCtrl.push(MealPage, { mealId });
     }
 }
