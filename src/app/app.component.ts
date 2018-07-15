@@ -85,7 +85,7 @@ export class MyApp {
     async setRootPage() {
         let user = await this.auth.currentUser();
 
-        this.rootPage = HomePage;
+        this.rootPage = TipsPage;
 
         if (user) {
             if (user.hasActiveSubscription() === true) {

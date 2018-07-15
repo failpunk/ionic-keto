@@ -144,55 +144,42 @@ export class DatabaseProvider {
         return [
             {
                 id: 1,
-                name: `Never Scold`,
-                text: `Don’t scold your dog, as he/she will learn to fear you, and probably won’t understand that he/she is doing a command wrong. If your pup is doing a behavior wrong, reset by pulling the treat away or moving your attention away.`
+                sections: [
+                    {
+                        title: 'The Keto Diet',
+                        desc: `The Keto Diet is a form of a low-carb diet. People who follow this diet usually do it longer-term.  The main benefits include weight loss & lowered blood sugar.`
+                    },
+                    {
+                        title: 'Keto Diet Goals',
+                        desc: `The goal of the keto diet is to reach ketosis. A state of metabolism where you body's preferential fuel source is shifted form carbs to fat.`
+                    }
+                ]
             },
             {
                 id: 2,
-                name: `Positive Reinforcement`,
-                text: `Never scold your dog if he/she gets something wrong. Always give positive reinforcement via a “Good Boy/Girl!” and a treat at event the smallest attempted at the behavior you’re going for.`
+                sections: [
+                    {
+                        desc: `On keto, you focus on eating foods with:<br> Very few carbs<br> moderate amounts of protein<br> a fair amount of fats`
+                    },
+                    {
+                        title: 'Macros',
+                        desc: `Recommended daily intake in % of total calories`
+                    }
+                ]
             },
-            {
-                id: 3,
-                name: `Treat Timing`,
-                text: `Be sure to to time giving treats when training correctly. You should only give treats right after your pup completes the desired behavior or is just completing it. Use a clicker or a verbal praise if you need an extra second to grab the treat.`
-            },
-            {
-                id: 4,
-                name: `Naming A Behavior`,
-                text: `Only add a verbal cue to the behavior after your pup has performed the desired behavior consistently. This way you won’t repeat the commands too much diluting its effect. `
-            },
-            {
-                id: 5,
-                name: `Don’t Repeat Commands`,
-                text: `Don’t continually repeat a verbal command if it isn’t being performed. This will reduce how effective your verbal cue is. If you’re having trouble, use a treat in your hand to lure your pup instead.`
-            },
-            {
-                id: 6,
-                name: `9 out of 10 Rule`,
-                text: `Don’t try to teach your dog too many behaviors/tricks at a time. Your pup should be able to do a command on a verbal cue 9 out of 10 times before you try teaching another behavior. You should also make sure your pup can do the desired behavior with distractions around so you know he/she has truly mastered the behavior.`
-            },
-            {
-                id: 7,
-                name: `Hand Signals`,
-                text: `Hand signals are a great way to have your dog associate commands. Similar to how you’d lure or teach your dog with a treat in hand, do the same movement with your hand but without the treat. For example, to teach spin you’d spin your hand with a treat in hand. Once it’s mastered, do the hand signal without the treat in hand.`
-            },
-            {
-                id: 8,
-                name: `Consistency`,
-                text: `Be consistent with giving treats and with verbal cues. If you taught your dog down with the verbal cue “down” don’t switch it to lay or any other verbal cue in the middle of training or any time after.`
-            }
         ];
     }
 
-    getTip(id) {}
+    getTip(id) {
+        return this.getTips().find(t => t.id === id);
+    }
 
     get randomText() {
         let data = [
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-            `cupidatat non proident, sunt in culpa qui`,
-            `Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.`,
-            `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque `
+            `Pirate blow the man down hulk no prey, no pay pinnace jury mast carouser man-of-war lateen sail lookout.`,
+            `Spanish Main Pirate Round barkadeer shrouds log. Sea Legs`,
+            `Scourge of the seven seas bilge water heave down hornswaggle mutiny warp Spanish Main ahoy avast list. American Main bilged on her anchor.`,
+            `Bring a spring upon her cable Shiver me timbers come about rope's end fire ship loot chase poop deck sheet carouser.`
         ];
 
         return sample(data);
