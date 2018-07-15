@@ -23,18 +23,28 @@ export class ConfigProvider {
     off automatic renewal in the accoutn settings of your Apple ID at any time. Any unused portion of a free
     trial period will be forfeited when subscribing to a non-trial plan`;
 
-    public PAYMENT_TAGLINE = 'Join Thousands of Happy Users';
-    public PAYMENT_BYLINE = `Accelerate Your Pup's Training Today!`;
 
-    public REVIEW_TITLE = 'Real Dog Owners, Real Success';
+    public REVIEW_TITLE = 'scallywag dance the hempen';
     public REVIEW_OVERALL_RATING = '4.9';
     public REVIEW_OVERALL_DESC = 'Based on 499 ratings, 30 reviews';
 
     public FAQ_TITLE = 'Frequently Asked Questions';
 
+    public PAYMENT_LOADING_TEXT = ' lookout wherry doubloon chase...';
+    public PAYMENT_TITLE = 'boom mizzenmast';
+    public PAYMENT_DESCRIPTION = 'Prow scuttle parrel provost Sail ';
+    public PAYMENT_TAGLINE = 'Join Thousands of Happy Users';
+    public PAYMENT_BYLINE = `red ensign hulk smartly!`;
+    public PAYMENT_BULLETS = [
+        'yardarm spyglass sheet ',
+        'broadside cable strike colors.',
+        'seven seas boatswain schooner',
+        'black jack gangway rutters.'
+    ];
+
     public PAYMENT_RETENTION_TITLE = `Are you sure you don’t want want access to one of the top training guides?`;
     public PAYMENT_RETENTION_TEXTONE = `Thousands of people already use Keto Klone to train their dog, whether it’s basic house/potting training or for more advanced move like shake.`;
     public PAYMENT_RETENTION_TEXTTWO = `It’s a totally free trial, that you can cancel anytime!`;
-    public PAYMENT_RETENTION_SUCCESS = `Try ${this.APP_NAME} Free Trial`;    
-    public PAYMENT_RETENTION_DISMISS = `No Thanks`;    
+    public PAYMENT_RETENTION_SUCCESS = `Try ${this.APP_NAME} Free Trial`;
+    public PAYMENT_RETENTION_DISMISS = `No Thanks`;
 }

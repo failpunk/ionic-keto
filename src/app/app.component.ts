@@ -42,7 +42,6 @@ export class MyApp {
         this.platform.ready().then(readySource => {
             this.initAnalytics();
 
-
             // Okay, so the platform is ready and our plugins are available.
             // Here you can do any higher level native things you might need.
             statusBar.styleDefault();
@@ -86,7 +85,7 @@ export class MyApp {
     async setRootPage() {
         let user = await this.auth.currentUser();
 
-        this.rootPage = PaymentPage;
+        this.rootPage = HomePage;
 
         if (user) {
             if (user.hasActiveSubscription() === true) {

@@ -33,18 +33,6 @@ export class PaymentPage {
     initialized = false;
     saving = false;
 
-    text = {
-        loading: 'Loading Cute Puppy Pics...',
-        title: 'Easy Puppy Training',
-        desc: 'Happy Dogs, Happy Owners',
-        bullets: [
-            'Step By Step Training Guides',
-            'Tips, Tricks, and Additional Tools',
-            'Access to 100+ Lessons',
-            'Vetted by 10 Professional Dog Trainers'
-        ]
-    };
-
     constructor(
         public analytics: AnalyticsProvider,
         public auth: AuthProvider,
@@ -61,7 +49,7 @@ export class PaymentPage {
             this.init();
         });
 
-        this.reviews = this.db.getReveiews();
+        this.reviews = this.db.getReviews();
         this.faqData = this.db.getFaqData();
 
         this.getUser();
