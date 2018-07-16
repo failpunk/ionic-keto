@@ -22,7 +22,7 @@ import { NavController, NavParams } from 'ionic-angular';
         <ion-list class="image-list m-0">
     
             <ion-item class="image-list__item image-list__item--top bg" 
-                [ngStyle]="{'background-image': 'url(assets/imgs/list/' + meal.img + ')'}">
+                [ngStyle]="{'background-image': 'url(assets/imgs/meal/' + meal.img + ')'}">
             </ion-item>
     
         </ion-list>

@@ -93,7 +93,7 @@ export class DatabaseProvider {
             },
             {
                 id: 3,
-                category_id: [,],
+                category_id: [1,2],
                 name: 'Jalapeño Popper Egg Cups',
                 desc: `Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.`,
                 stars: 5,
@@ -124,7 +124,7 @@ export class DatabaseProvider {
                 ]
             },
             {
-                id: 3,
+                id: 0,
                 category_id: [1],
                 name: 'Zucchini Egg Cups',
                 desc: `12`,
