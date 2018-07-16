@@ -9,25 +9,25 @@ export class DatabaseProvider {
                 id: 1,
                 name: 'Breakfast Foods',
                 desc: 'Start the Morning Right With 23 Breakfast Receipes',
-                img: 'breakfast-foods.jpg'
+                img: 'breakfast-min.jpg'
             },
             {
                 id: 2,
                 name: 'Snacks',
                 desc: 'Never Be Hungry With These Keto Snacks',
-                img: 'breakfast-foods68.jpg'
+                img: 'snacks-min.jpg'
             },
             {
                 id: 3,
                 name: 'Entres',
                 desc: 'Mouthwatering Keto Lunch and Dinners',
-                img: 'basics.jpg'
+                img: 'entres-min.jpg'
             },
             {
                 id: 4,
                 name: 'Desserts and Fat Bombs',
                 desc: 'Because Life Does Need Some Keto Sweetness',
-                img: 'fun-tricks.jpg'
+                img: 'desserts-min.jpg'
             }
         ];
     }
@@ -60,7 +60,7 @@ export class DatabaseProvider {
                     '6 frozen sausage patties, heated according to package instructions',
                     'Avocado, sliced'
                 ],
-                img: 'ketoSausage.jpg',
+                img: 'ketoSausage-min.jpg',
                 directions: [
                     `In a small bowl beat eggs, heavy cream, and red pepper flakes together. Season generously with salt and pepper. In a nonstick skillet over medium heat, melt butter. Pour about ⅓ of the eggs into the skillet. Place a slice of cheese in the middle and let sit about 1 minute. Fold the sides of the egg into the middle, covering the cheese. Remove from pan and repeat with remaining eggs.`,
                     `Serve eggs between two sausage patties with avocado. `
@@ -84,7 +84,7 @@ export class DatabaseProvider {
                     '1 tsp. lemon zest',
                     'Butter, for frying and serving'
                 ],
-                img: 'ketoPancake.jpg',
+                img: 'ketoPancake-min.jpg',
                 directions: [
                     `In a medium bowl, whisk together almond flour, cream cheese, eggs, and lemon zest until smooth.`,
                     `In a nonstick skillet over medium heat, melt 1 tablespoon butter. Pour in about 3 tablespoons batter and cook until golden, 2 minutes. Flip and cook 2 minutes more. Transfer to a plate and continue with the rest of the batter.`,
@@ -114,7 +114,7 @@ export class DatabaseProvider {
                     'Freshly ground black pepper',
                     'nonstick cooking spray'
                 ],
-                img: 'jalapenoPopper.jpg',
+                img: 'jalapenoPopper-min.jpg',
                 directions: [
                     `Preheat oven to 375°.`,
                     `In a large skillet over medium heat, cook bacon until slightly browned but still pliable. Set aside on a paper towel-lined plate to drain.`,
@@ -145,7 +145,7 @@ export class DatabaseProvider {
                     '1 c. Pinch red pepper flakes',
                     '1 c. shredded cheddar'
                 ],
-                img: 'zucchiniEgg.jpg',
+                img: 'zucchiniEgg-min.jpg',
                 directions: [
                     `Preheat oven to 400° and grease a muffin tin with cooking spray. Line the inside and bottom of the muffin tin with zucchini strips, to form a crust. Sprinkle ham and cherry tomatoes inside each crust. `,
                     `In a medium bowl whisk together eggs, heavy, cream, oregano, and red pepper flakes then season with salt and pepper. Pour egg mixture over ham and tomatoes then top with cheese.`,
@@ -172,7 +172,7 @@ export class DatabaseProvider {
                     '2 garlic cloves, minced',
                     '4 large eggs'
                 ],
-                img: 'brusselHash.jpg',
+                img: 'brusselHash-min.jpg',
                 directions: [
                     `In a large skillet over medium heat, fry bacon until crispy. Turn off heat and transfer bacon to a paper towel-lined plate. Keep most of bacon fat in skillet, removing any black pieces from the bacon.`,
                     `Turn heat back to medium and add onion and brussels sprouts to the skillet. Cook, stirring occasionally, until the vegetables begin to soften and turn golden. Season with salt, pepper, and red pepper flakes.`,
@@ -190,7 +190,7 @@ export class DatabaseProvider {
                 prep_time_min: 10,
                 total_time_min: 20,
                 ingredients: ['2 avocados', '1/3 c. shredded Cheddar', '8 slices bacon'],
-                img: 'baconAvocado.jpg',
+                img: 'baconAvocado-min.jpg',
                 directions: [
                     `Heat broiler and line a small baking sheet with foil.`,
                     `Slice each avocado in half and remove the pits. Peel the skin off of each avocado.`,
@@ -217,7 +217,7 @@ export class DatabaseProvider {
                     'Freshly ground black pepper',
                     'Chopped fresh parsley, for garnish'
                 ],
-                img: 'hamCheeseEgg.jpg',
+                img: 'hamCheeseEgg-min.jpg',
                 directions: [
                     `Preheat oven to 400º and spray a 12-cup muffin tin with cooking spray.`,
                     `Line each cup with a slice of ham and sprinkle with cheddar. Crack an egg in each ham cup and season with salt and pepper.`,
@@ -235,7 +235,7 @@ export class DatabaseProvider {
                 prep_time_min: 5,
                 total_time_min: 20,
                 ingredients: ['12 large eggs', 'water'],
-                img: 'perfectHardBoiled.jpg',
+                img: 'perfectHardBoiled-min.jpg',
                 directions: [
                     `Place eggs in a large pot and cover by an inch of cold water. Place pot on stove and bring to a boil. Instantly turn off heat and cover pot. Let sit for 11 minutes.`,
                     `Remove from pan and dunk into ice water. Peel and serve.`
@@ -259,7 +259,7 @@ export class DatabaseProvider {
                     'chives, for garnish',
                     'Hot sauce, if desired'
                 ],
-                img: 'paleoBreakfastStacks.jpg',
+                img: 'paleoBreakfastStacks-min.jpg',
                 directions: [
                     `Heat breakfast sausage according to instructions on box.`,
                     `Mash avocado onto breakfast sausage and season with salt and pepper.`,
@@ -286,7 +286,7 @@ export class DatabaseProvider {
                     '1 c. shredded cheddar, divided',
                     '4 slices ham'
                 ],
-                img: 'hamCheeseRolls.jpg',
+                img: 'hamCheeseRolls-min.jpg',
                 directions: [
                     `In a medium bowl, whisk together eggs, milk, and chives. Season with salt and pepper.`,
                     `In a medium skillet over medium heat, melt butter. Pour half of the egg mixture into the skillet, moving to create a thin layer that covers the entire pan.`,
@@ -313,7 +313,7 @@ export class DatabaseProvider {
                     '18 slices bacon',
                     '2 c. shredded Cheddar'
                 ],
-                img: 'baconEggCheese.jpg',
+                img: 'baconEggCheese-min.jpg',
                 directions: [
                     `In a large bowl, whisk together eggs, milk, and garlic powder and season with salt and pepper.`,
                     `In a nonstick skillet over medium heat, melt butter. Add eggs and scramble, 3 minutes, then stir in chives.`,
@@ -337,7 +337,7 @@ export class DatabaseProvider {
                     '2 slices cooked bacon',
                     '1/4 c. shredded Cheddar cheese'
                 ],
-                img: 'bunlessBaconEgg.jpg',
+                img: 'bunlessBaconEgg-min.jpg',
                 directions: [
                     `In a medium nonstick pan, place two mason jar lids (centers removed). Spray the entire pan with cooking spray and heat over medium heat. Crack eggs into the centers of the lids and lightly whisk with a fork to break up yolk.`,
                     `Pour water around the lids and cover the pan. Cook, letting the eggs steam, until the whites are cooked through, about 3 minutes. Remove lid and top one eggs with cheddar. Cook until the cheese is slightly melty, about 1 minute more.`,
@@ -361,7 +361,7 @@ export class DatabaseProvider {
                     '1/4 lb. deli ham, chopped',
                     '3 tbsp. finely chopped fresh chives, for garnish'
                 ],
-                img: 'cloudEggs.jpg',
+                img: 'cloudEggs-min.jpg',
                 directions: [
                     `Preheat oven to 450° and line a large baking sheet with parchment paper.`,
                     `Separate egg whites and egg yolks, placing the egg whites in a large bowl and the yolks in a small bowl.`,
@@ -386,7 +386,7 @@ export class DatabaseProvider {
                     '3 slices bacon',
                     'Freshly chopped chives, for garnish'
                 ],
-                img: 'avocadoEggBoats.jpg',
+                img: 'avocadoEggBoats-min.jpg',
                 directions: [
                     `Preheat oven to 350°. Place avocados in a baking dish, then crack eggs into a bowl. Using a spoon, transfer yolks to each avocado half, then spoon in as much egg white as you can fit without spilling over.`,
                     `Season with salt and pepper and bake until whites are set and yolks are no longer runny, about 20 minutes. (Cover with foil if avocados are beginning to brown.)`,
@@ -417,7 +417,7 @@ export class DatabaseProvider {
                     '4 eggs',
                     '1 c. shredded Cheddar cheese'
                 ],
-                img: 'lowCarBreakfastHash.jpg',
+                img: 'lowCarBreakfastHash-min.jpg',
                 directions: [
                     `In a large nonstick skillet over medium heat, fry bacon until crispy. Turn off heat and transfer bacon to a paper towel-lined plate. Keep most of bacon fat in skillet, removing any black pieces from the bacon.`,
                     `Turn heat back to medium and add onion, bell pepper, and cauliflower to the skillet. Cook, stirring occasionally, until the vegetables begin to soften and turn golden. Season with salt, pepper, and paprika`,
@@ -445,7 +445,7 @@ export class DatabaseProvider {
                     'Freshly ground black pepper',
                     '1 tbsp. freshly chopped chives'
                 ],
-                img: '.jpg',
+                img: '-min.jpg',
                 directions: [
                     `If baking, preheat oven to 350°`,
                     `Grease two 16-ounce mason jars with nonstick cooking spray.`,
@@ -476,7 +476,7 @@ export class DatabaseProvider {
                     '2 green onions, thinly sliced, plus more for garnish',
                     'Hot sauce, for serving'
                 ],
-                img: 'loadedCauliflowerBreakfastBake.jpg',
+                img: 'loadedCauliflowerBreakfastBake-min.jpg',
                 directions: [
                     `Preheat oven to 350º. Grate cauliflower head on a box grater and transfer to a baking dish.`,
                     `In a large skillet over medium heat, cook bacon. Transfer to a paper towel-lined plate to drain fat.`,
@@ -507,7 +507,7 @@ export class DatabaseProvider {
                     '1 avocado, sliced',
                     'Hot sauce, for serving'
                 ],
-                img: 'baconWeaveTacos.jpg',
+                img: 'baconWeaveTacos-min.jpg',
                 directions: [
                     `Preheat oven to 400° and line a large, rimmed baking sheet with foil. In one corner, make a bacon weave with 8 halves of bacon each, creating a square. Repeat to make next three weaves. Season with pepper. Place an inverted baking rack on top to make sure bacon lays flat.`,
                     `Bake until bacon is crispy, 18 to 20 minutes. Working quickly, trim each square with a paring knife or kitchen shears to make a round shape.`,
@@ -533,7 +533,7 @@ export class DatabaseProvider {
                     'kosher salt',
                     'Freshly ground black pepper'
                 ],
-                img: 'cauliflowerToast.jpg',
+                img: 'cauliflowerToast-min.jpg',
                 directions: [
                     `Preheat oven to 425º and line a baking sheet with parchment paper. Finely grate cauliflower and transfer to a large bowl. Microwave on high, 8 minutes. Drain thoroughly with paper towels or a cheesecloth until mixture is dry.`,
                     `Add egg, cheddar, and garlic powder to cauliflower bowl and season with salt and pepper. Mix until combined.`,
@@ -558,7 +558,7 @@ export class DatabaseProvider {
                     'Kosher salt',
                     '9 asparagus spears, blanched'
                 ],
-                img: 'baconAsparagusBites.jpg',
+                img: 'baconAsparagusBites-min.jpg',
                 directions: [
                     `Preheat oven to 400° and line 1 medium baking sheet with parchment paper.`,
                     `Cook bacon: In a large skillet over medium heat, cook bacon until most of the fat is cooked out, but is not crisp. Remove from pan and drain on a paper towel lined plate.`,
@@ -589,7 +589,7 @@ export class DatabaseProvider {
                     '1 c. shredded monterey jack',
                     'Sour cream, for serving (optional)'
                 ],
-                img: 'ketoTaquitos.jpg',
+                img: 'ketoTaquitos-min.jpg',
                 directions: [
                     `Preheat oven to 375° and line a small baking sheet with parchment paper. In a medium skillet over medium heat, heat oil. Add onion and cook until slightly soft, 3 minutes. Add garlic and spices and cook until fragrant, 1 to 2 minutes more. Add chicken and enchilada sauce, then bring mixture to a simmer. Stir in cilantro, season with salt, and remove from heat.`,
                     `Make taquito shells: In a medium bowl, mix together cheeses. Divide mixture into 6 piles on prepared baking sheet. Bake 8 to 10 minutes, or until cheese is melted and slightly golden around the edges. Let cool 2 to 4 minutes, then add a small pile of chicken and roll tightly. Repeat until all taquitos are made.`,
@@ -615,7 +615,7 @@ export class DatabaseProvider {
                     '1 tbsp. sriracha',
                     '1 tsp. soy sauce'
                 ],
-                img: 'cucumberSushi.jpg',
+                img: 'cucumberSushi-min.jpg',
                 directions: [
                     `Using a small spoon, remove seeds from center of cucumbers until they are completely hollow.`,
                     `Press avocado into the center of cucumber, using a butter knife to press inside the cucumber. Next, slide in bell peppers and carrots until the cucumber is completely full of veggies.`,
@@ -640,7 +640,7 @@ export class DatabaseProvider {
                     'kosher salt',
                     'Freshly ground black pepper'
                 ],
-                img: 'avocadoDip.jpg',
+                img: 'avocadoDip-min.jpg',
                 directions: [
                     `In a large bowl, mash avocados.`,
                     `Add yogurt, garlic, and lime juice and season with salt and pepper. Serve.`
@@ -665,7 +665,7 @@ export class DatabaseProvider {
                     '1 avocado, chopped',
                     '8 slices bacon, cooked and chopped'
                 ],
-                img: 'turkeyClubCups.jpg',
+                img: 'turkeyClubCups-min.jpg',
                 directions: [
                     `Preheat oven to 400° and lightly grease muffin tin with cooking spray.`,
                     `Place a slice of turkey into each muffin cup. Add a slice of cheddar, then bake until turkey is sturdy and cheese is melted, about 10 minutes. Let cool slightly.`,
@@ -693,7 +693,7 @@ export class DatabaseProvider {
                     'Ranch, for drizzling',
                     'chives, for garnish'
                 ],
-                img: 'buffaloChickenCelery.jpg',
+                img: 'buffaloChickenCelery-min.jpg',
                 directions: [
                     `In a medium bowl, whisk together hot sauce and mayo and season with salt and pepper. Pour over shredded chicken and mix to combine.`,
                     `Spoon chicken mixture into celery boats.`,
@@ -727,7 +727,7 @@ export class DatabaseProvider {
                     'Chopped fresh cilantro, for garnish',
                     'Lime wedges, for serving'
                 ],
-                img: 'bellPepperNachos.jpg',
+                img: 'bellPepperNachos-min.jpg',
                 directions: [
                     `Preheat oven to 425° and line two small baking sheets with foil.`,
                     `Divide bell peppers between baking sheets. Toss wedges on both sheets with olive oil, cumin, chili powder and garlic powder. Season generously with salt and pepper. Lay the wedges on the baking sheets in single layers, cut-side up. Bake until the peppers are crisp-tender.`,
@@ -756,7 +756,7 @@ export class DatabaseProvider {
                     'Carrot sticks, for serving',
                     'Crackers, for serving'
                 ],
-                img: 'greekYogurtOnionDip.jpg',
+                img: 'greekYogurtOnionDip-min.jpg',
                 directions: [
                     `Cook the Onions: Heat olive oil in a medium skillet over medium heat. Add onions and thyme. Season to taste with salt and pepper. Turn down the heat to medium-low and cook, stirring occasionally, until soft and caramelized—about 20 minutes. If the onions are browning too quickly, turn down the heat and add a splash of water. When the onions are caramelized and jammy, add the vinegar. Reduce the vinegar slightly, about 1 minute and remove from heat.`,
                     `In a medium serving bowl, combine caramelized onions and Greek yogurt.`,
@@ -786,7 +786,7 @@ export class DatabaseProvider {
                     '1/4 c. freshly grated Parmesan',
                     'Lemon wedges, for serving'
                 ],
-                img: 'creamyTuscanChicken.jpg',
+                img: 'creamyTuscanChicken-min.jpg',
                 directions: [
                     `In a skillet over medium heat, heat olive oil. Add chicken and season with salt, pepper, and oregano. Cook until golden and no longer pink, 8 minutes per side. Remove from skillet and set aside. `,
                     `In the same skillet over medium heat, melt butter. Stir in garlic and cook until fragrant, about 1 minute. Add cherry tomatoes and season with salt and pepper. Cook until tomatoes are beginning to burst then add spinach and cook until spinach is beginning to wilt. `,
@@ -814,7 +814,7 @@ export class DatabaseProvider {
                     'Freshly ground black pepper',
                     'Freshly chopped parsley, for garnish'
                 ],
-                img: 'grilledChickenBreast.jpg',
+                img: 'grilledChickenBreast-min.jpg',
                 directions: [
                     `In a medium bowl, whisk together balsamic vinegar, olive oil, brown sugar, garlic, and dried herbs, and season generously with salt and pepper. Reserve ¼ cup.`,
                     `Add chicken to the bowl and toss to combine. Let marinate at least 20 minutes and up to overnight. `,
@@ -842,7 +842,7 @@ export class DatabaseProvider {
                     'sesame seeds Sesame',
                     'dried parsley'
                 ],
-                img: 'ketoBurgerBuns.jpg',
+                img: 'ketoBurgerBuns-min.jpg',
                 directions: [
                     `Preheat oven to 400° and line a baking sheet with parchment paper. In a large microwave-safe bowl, melt together mozzarella and cream cheese. `,
                     `Add eggs and stir to combine then add almond flour, baking powder and salt. Form dough into 6 balls and flatten slightly then place on prepared baking sheet. `,
@@ -870,7 +870,7 @@ export class DatabaseProvider {
                     '3 tbsp. freshly chopped parsley',
                     '3 tbsp. large zucchini, spiralized (or about 4 cups zoodles)'
                 ],
-                img: 'garlicShrimpZucchini.jpg',
+                img: 'garlicShrimpZucchini-min.jpg',
                 directions: [
                     `In a large skillet over medium heat, melt 1 tablespoon butter. Add shrimp and season with salt and pepper. Cook until shrimp is pink and opaque, about 2 minutes per side. Transfer shrimp to a plate. (Keep juices in skillet.)`,
                     `Melt remaining butter in skillet then stir in garlic. Cook until fragrant, about 1 minute, then whisk in heavy cream. Bring to simmer, then stir in Parmesan, tomatoes, and parsley. Simmer until tomatoes have softened and mixture has thickened slightly, about 3 minutes. `,
@@ -897,7 +897,7 @@ export class DatabaseProvider {
                     'Butterhead lettuce, for serving',
                     '2 tomatoes, sliced'
                 ],
-                img: 'bltBurgers.jpg',
+                img: 'bltBurgers-min.jpg',
                 directions: [
                     `Preheat oven to 400º and place a baking rack inside of a baking sheet (to help catch grease).`,
                     `Make a bacon weave: On the baking rack, line 3 bacon halves side-by-side. Lift one end of the middle bacon slice and place a fourth bacon half on top of the side pieces and underneath the middle slice. Lay the middle slice back down.`,
@@ -934,7 +934,7 @@ export class DatabaseProvider {
                     'Chopped cilantro, for serving',
                     'Chopped tomatoes, for serving'
                 ],
-                img: 'ketoTacoCups.jpg',
+                img: 'ketoTacoCups-min.jpg',
                 directions: [
                     `Preheat oven to 375° and line a large baking sheet with parchment paper. Spoon about a tablespoon of cheese a few inches apart. Bake until bubbly and edges are beginning to turn golden, about 6 minutes. Let cool on baking sheet for a minute.`,
                     `Meanwhile, grease bottom of a muffin tin with cooking spray, then carefully pick up melted cheese slices and place on bottom of muffin tin. Let cool 10 minutes.`,
@@ -964,7 +964,7 @@ export class DatabaseProvider {
                     'Freshly ground black pepper',
                     '12 slices bacon'
                 ],
-                img: 'baconWrappedZucchini.jpg',
+                img: 'baconWrappedZucchini-min.jpg',
                 directions: [
                     `Preheat oven to 350°. Line a baking sheet with parchment paper and fit with a cooling rack. Using a spoon, remove the seedy centers of each zucchini.`,
                     `In a large bowl, combine cream cheese, artichoke hearts, spinach, mozzarella, parmesan, garlic and red pepper flakes. Season with salt and pepper and stir to combine.`,
@@ -992,7 +992,7 @@ export class DatabaseProvider {
                     '1/2 c. freshly grated Parmesan',
                     'Chopped fresh parsley, for garnish'
                 ],
-                img: 'cheesyBaconButternutSquash.jpg',
+                img: 'cheesyBaconButternutSquash-min.jpg',
                 directions: [
                     `Preheat oven to to 425°. In a large ovenproof skillet (or in a large baking dish), toss butternut squash with olive oil, garlic and thyme. Season with salt and pepper, then scatter bacon on top.`,
                     `Bake until the squash is tender and the bacon is cooked through, 20 to 25 minutes.`,
@@ -1017,7 +1017,7 @@ export class DatabaseProvider {
                     '6 tbsp. butter, cut into slices',
                     '6 sprigs fresh rosemary'
                 ],
-                img: 'beefTenderloin.jpg',
+                img: 'beefTenderloin-min.jpg',
                 directions: [
                     `Preheat oven to 475º. Rub beef tenderloin all over with oil and season generously with seasoning salt and pepper. Heat a large skillet over medium-high heat. Sear tenderloin on all sides until golden, 2 minutes per side.`,
                     `Transfer to a baking dish and top all over with butter and rosemary sprigs.`,
@@ -1044,7 +1044,7 @@ export class DatabaseProvider {
                     '2 tbsp. dry white wine (or water)',
                     'Freshly chopped parsley, for garnish'
                 ],
-                img: 'lemonGarlicShrimp.jpg',
+                img: 'lemonGarlicShrimp-min.jpg',
                 directions: [
                     `In a large skillet over medium heat, melt 1 tablespoon butter and olive oil. Add shrimp, garlic, and crushed red pepper flakes and cook until shrimp is pink, 3 minutes.`,
                     `Remove from heat and stir in remaining tablespoon butter, lemon juice, white wine, and parsley.`,
@@ -1075,7 +1075,7 @@ export class DatabaseProvider {
                     'Lime slices, for serving',
                     'Sliced green onions, for garnish'
                 ],
-                img: 'jerkChicken.jpg',
+                img: 'jerkChicken-min.jpg',
                 directions: [
                     `Make marinade: In a large bowl, combine all ingredients and whisk until combined.`,
                     `Add chicken and toss to coat. Transfer to the refrigerator and marinate at least 30 minutes and up to overnight.`,
@@ -1100,7 +1100,7 @@ export class DatabaseProvider {
                     '2 lemons, sliced',
                     '2 tbsp. butter'
                 ],
-                img: 'lemonGrilledSalmon.jpg',
+                img: 'lemonGrilledSalmon-min.jpg',
                 directions: [
                     `Heat grill to high. Brush salmon with oil and season with salt and pepper. Add salmon and lemon slices and grill until salmon is cooked through and lemons are charred, 5 minutes per side.`,
                     `Add a pat of butter to salmon right when it’s off the grill and top with grilled lemons. Serve.`
@@ -1129,7 +1129,7 @@ export class DatabaseProvider {
                     '1/4 c. chopped herbs (such as basil and parsley), plus more for garnish',
                     'Lemon wedges, for serving (optional)'
                 ],
-                img: 'tuscanButterSalmon.jpg',
+                img: 'tuscanButterSalmon-min.jpg',
                 directions: [
                     `In a large skillet over medium-high heat, heat oil. Season salmon all over with salt and pepper. When oil is shimmering but not smoking, add salmon skin-side up and cook until deeply golden, about 6 minutes. Flip over and cook 2 minutes more. Transfer to a plate.`,
                     `Reduce heat to medium and add butter. When butter has melted, stir in garlic and cook until fragrant, about 1 minute. Add cherry tomatoes and season with salt and pepper. Cook until tomatoes are beginning to burst then add spinach and cook until spinach is beginning to wilt.`,
@@ -1156,7 +1156,7 @@ export class DatabaseProvider {
                     '1/2 c. (1 stick) butter, melted',
                     '1 tbsp. olive oil'
                 ],
-                img: 'rosemaryPorkChops.jpg',
+                img: 'rosemaryPorkChops-min.jpg',
                 directions: [
                     `Preheat oven to 375°. Season pork chops with salt and pepper.`,
                     `In a small bowl mix together butter, rosemary, and garlic. Set aside.`,
@@ -1184,7 +1184,7 @@ export class DatabaseProvider {
                     '1 tomato, sliced',
                     'Ranch dressing, for serving'
                 ],
-                img: 'iceburgers.jpg',
+                img: 'iceburgers-min.jpg',
                 directions: [
                     `Slice 8 large rounds from the edges of the head of iceberg to create buns.`,
                     `In a large skillet over medium heat, cook bacon until crispy. Transfer bacon to a paper towel-lined plate to drain, reserving bacon fat in pan.`,
@@ -1209,7 +1209,7 @@ export class DatabaseProvider {
                     '1 tsp cinnamon',
                     '8 drops stevia'
                 ],
-                img: 'chocolateWalnutFatBomb.jpg',
+                img: 'chocolateWalnutFatBomb-min.jpg',
                 directions: [
                     `Melt chocolate and coconut oil. You can do this in a water bath like the pros do it, in a coated pot on the stove (gentle heat! ) or in the microwave. If you can get hold of sugar free chocolate such as Lily's in the USA, go for it. I used 90% Lindt, but I have come across unsweetened (100% cocoa solids) chocolate as well, here in the UK there is a brand called Montezuma, for example. If you use unsweetened chocolate, adjust the amount of sweetener accordingly.`,
                     `Crush your walnuts - I used a food processor - until you have small pieces. Keep a few larger ones to decorate the fat bombs.`,
@@ -1234,7 +1234,7 @@ export class DatabaseProvider {
                     '2 medium scallions, sliced thinly',
                     'Homemade Everything Bagel Seasoning'
                 ],
-                img: 'everythingBagelFatBomb.jpg',
+                img: 'everythingBagelFatBomb-min.jpg',
                 directions: [
                     `Using a hand or stand mixer, beat cream cheese until fluffy.`,
                     `Add chopped smoked salmon and thinly sliced scallions.`,
@@ -1263,7 +1263,7 @@ export class DatabaseProvider {
                     '2 tsp vanilla bean powder',
                     '8-10 ice cubes'
                 ],
-                img: 'fatBombIceCream.jpg',
+                img: 'fatBombIceCream-min.jpg',
                 directions: [
                     `Add all ingredients but ice cubes into the jug of your high powered blender. Blend on high for 2 minutes, until creamy.`,
                     `While the blender is still running, remove the top portion of the lid and drop in 1 ice cube at a time, allowing the blender to run about 10 seconds between each ice cube. The goal here is to dilute the mixture just a bit and make it cold so it will run through the ice cream maker easier. If you have a Vitamix, there is a small space at the top, just big enough to drop in the ice cube. If you don’t have a hole in your lid, turn off the blender each time as you add an ice cube, one at a time.`,
@@ -1287,7 +1287,7 @@ export class DatabaseProvider {
                     '1/2 cup golden monk fruit sweetener',
                     '2 oz 100% cacao Baker’s chocolate bar'
                 ],
-                img: 'chocolateChipCookieDoughFatBomb.jpg',
+                img: 'chocolateChipCookieDoughFatBomb-min.jpg',
                 directions: [
                     `In a mixing bowl, using an electric mixer, mix all ingredients excluding chocolate until well-combined.`,
                     `Refrigerate mixture for 30 minutes.`,
@@ -1315,7 +1315,7 @@ export class DatabaseProvider {
                     '2 tsp pumpkin pie spice',
                     '1/4 tsp cinnamon'
                 ],
-                img: 'pumpkinSpiceFatBombs.jpg',
+                img: 'pumpkinSpiceFatBombs-min.jpg',
                 directions: [
                     `In a small pan over medium heat, spray avocado oil cooking spray and toast pecans until fragrant. Remove from heat and set aside to cool.`,
                     `In a medium-sized pot over medium-low heat, melt coconut oil and cream cheese until combined.`,
@@ -1340,7 +1340,7 @@ export class DatabaseProvider {
                     '1/2 cup freeze-dried raspberries',
                     '1/4 cup powdered erythritol sweetener (like Swerve)'
                 ],
-                img: 'whiteChocolateRaspberry.jpg',
+                img: 'whiteChocolateRaspberry-min.jpg',
                 directions: [
                     `Line a 12-cup muffin pan with paper liners. Or use a silicone muffin pan.`,
                     `Heat the coconut oil and cacao butter in a small saucepan over low heat until completely melted. Remove the pan from the heat.`,
@@ -1370,7 +1370,7 @@ export class DatabaseProvider {
                     '1/4 cup unsweetened finely shredded coconut',
                     '1/4 cup cacao nibs'
                 ],
-                img: 'chocolateCoconutAlmondFatBombs.jpg',
+                img: 'chocolateCoconutAlmondFatBombs-min.jpg',
                 directions: [
                     `Mix coconut oil, coconut butter, cacao powder, almond extract, vanilla extract, and stevia or erythritol together. If using erythritol: heat in microwave or on stove for 1-2 minutes until erythritol is dissolved. You may want to taste to check that there are no crunchy erythritol crystals.`,
                     `Add in crushed slivered almonds, coconut flakes, and cacao nibs. With a tablespoon, fill mini cupcake liners or an ice cube tray, putting 1 tablespoonful in each. Store in fridge.`
@@ -1399,7 +1399,7 @@ export class DatabaseProvider {
                     '½ teaspoon vanilla bean powder or vanilla extract',
                     '¼ teaspoon kosher salt'
                 ],
-                img: 'pecanPieFatBombs.jpg',
+                img: 'pecanPieFatBombs-min.jpg',
                 directions: [
                     `In the bowl of a food processor, combine all of the ingredients. Pulse for about 1-2 minutes, until the mixture starts to break down. It will first become powdery and will stick together, but still be crumbly.`,
                     `Keep processing until the oils start to release a bit and the mixture sticks together easily - just be careful not to over process or you’ll have nut butter.`,

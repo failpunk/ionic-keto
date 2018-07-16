@@ -23,11 +23,14 @@ import { MealPage } from '../meal/meal';
         <ion-list class="image-list" *ngIf="meals.length">
             <ion-item *ngFor="let meal of meals" 
                 (click)="goTo(meal.id)" 
-                [ngStyle]="{'background-image': 'url(assets/imgs/meal/' + meal.img + ')'}"
+                [ngStyle]="{'background-image': 'url(assets/imgs/list/' + meal.img + ')'}"
                 class="image-list__item bg">
 
-                <h2>{{meal.name}} <span>( {{meal.difficulty}} )</span></h2>
-                <p>{{meal.items_needed}}</p>
+                <h2>{{meal.name}}</h2>
+                <p>
+                    Servings: {{meal.servings}} |
+                    Prep Time: {{meal.prep_time_min}} |
+                </p>
 
             </ion-item>
         </ion-list>
