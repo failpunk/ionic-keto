@@ -29,8 +29,11 @@ import { PaymentPage } from '../payment/payment';
                 (click)="goTo(category.id)" 
                 [ngStyle]="{'background-image': 'url(assets/imgs/list/' + category.img + ')'}"
                 [ngClass]="category.img_class">
+
                 <h2>{{category.name}}</h2>
                 <p>{{category.desc}}</p>
+                <ion-icon class="arrow-dropright" name="arrow-dropright"></ion-icon>
+
             </ion-item>
 
         </ion-list>
