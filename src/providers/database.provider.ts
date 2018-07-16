@@ -143,7 +143,28 @@ export class DatabaseProvider {
     getTips() {
         return [
             {
+                id: 0,
+                icon: 'warning',
+                title: 'Before You Begin',
+                sections: [
+                    {
+                        desc: `If you are unsure about any health issues, we strongly recommend you get a checkup and see your doctor before starting Keto or any other diet.`
+                    },
+                    {
+                        desc: '<span class="highlight">This is especially important if you have any known HEALTH ISSUES such as:</span>',
+                    },
+                    {
+                        desc: `Diabetes<br> Thyroid Issues<br> Autoimmune Conditions<br> Gut / Stomach Issues<br> Vitamin or Mineral Deficiencies`,
+                    },
+                    {
+                        heading: 'or if you are PREGNANT or NURSING'
+                    }
+                ]
+            },
+            {
                 id: 1,
+                icon: 'geometric',
+                title: 'Keto Overview',
                 sections: [
                     {
                         title: 'The Keto Diet',
@@ -157,16 +178,154 @@ export class DatabaseProvider {
             },
             {
                 id: 2,
+                icon: 'geometric',
+                title: 'Keto Overview',
                 sections: [
                     {
-                        desc: `On keto, you focus on eating foods with:<br> Very few carbs<br> moderate amounts of protein<br> a fair amount of fats`
+                        desc: `On keto, you focus on eating foods with:<br><br> Very few carbs<br> moderate amounts of protein<br> a fair amount of fats`
                     },
                     {
                         title: 'Macros',
-                        desc: `Recommended daily intake in % of total calories`
+                        desc: `Recommended daily intake in % of total calories:<br><br> <span class="highlight">Carbs: 5-10%</span><br> <span class="highlight">Protein: 20-25%</span><br> <span class="highlight">Fats: 70-75%</span>`
                     }
                 ]
             },
+            {
+                id: 3,
+                icon: 'bread',
+                title: 'Carbohydrate Intake',
+                sections: [
+                    {
+                        desc: `Your carb intake on the keto diet should be<br> <em class="highlight">5-10% of your total calories.</em>`
+                    },
+                    {
+                        desc: `On the standard ketogenic diet (SKD), this means that you should reduce your carb intake to<br><br> <em class="highlight">20-30 grams of net carbs per day..</em><br><br> Staying below 30 grams of net carbs per day is usually key to getting into ketosis (depending on individual needs).`
+                    }
+                ]
+            },
+            {
+                id: 4,
+                icon: 'bread',
+                title: 'Total vs Net Carbs',
+                sections: [
+                    {
+                        desc: `Practicing Keto, you'll often ask the question:<br> Should I focus on <span class="highlight">carbs</span> or <span class="highlight">net carbs</span>.`
+                    },
+                    {
+                        title: 'What are Net Carbs?',
+                        desc: `Net carbs are what is left when you subtract grams of fiber from the total amount of carbohydrates per serving. Put simply as:<br><br> <span class="highlight">net carbs</span> = grams of total carbs - fiber`
+                    }
+                ]
+            },
+            {
+                id: 5,
+                icon: 'meat',
+                title: 'Protein Intake',
+                sections: [
+                    {
+                        desc: `Your protein intake on the keto diet should be <br> <span class="highlight">20-25% of total calories.</span>`
+                    },
+                    {
+                        desc: `Protein is a macronutrient that is both filling and essential for the human body. If you have too much your body may turn it into sugar. Therefore it is essential to moderate the amount of protein when on Keto.`
+                    },
+                    {
+                        heading: 'Too Much Protein',
+                        desc: `Can kick you out of ketosis`
+                    },
+                    {
+                        heading: 'Too Little Protein',
+                        desc: `May cause muscle loss and increased hunger`
+                    }
+                ]
+            },
+            {
+                id: 6,
+                icon: 'doughnut',
+                title: 'Fat Intake',
+                sections: [
+                    {
+                        desc: `Your fat intake on the keto diet should be<br><span class="highlight">70-75% of total calories.</span>`
+                    },
+                    {
+                        desc: `Fat is extremely important durin ketosis as you want your body to switch its primary source of energy <span class="highlight">from carbs to fat.</span>`
+                    },
+                    {
+                        heading: 'Basic Tip:',
+                        desc: `You need to eat fat to burn fat!`
+                    },
+                    {
+                        desc: `Most importantly, to get started, avoid foods that contain trans fats (mostly processed foods)`
+                    }
+                ]
+            },
+            {
+                id: 7,
+                icon: 'plate',
+                title: 'Example Diet: Day 1',
+                sections: [
+                    {
+                        desc: `<small>A day of the keto diet.<br> Totals may vary depending on individual needs.</small>`
+                    },
+                    {
+                        heading: 'Breakfast',
+                        desc: `4 creamy scrambled eggs with bacon & flaxseeds`
+                    },
+                    {
+                        heading: 'Lunch',
+                        desc: `Avocado, bacon & spinach salad`
+                    },
+                    {
+                        heading: 'Dinner',
+                        desc: `Pan-fried pork-chops with asparagus`
+                    },
+                    {
+                        desc: `<span class="highlight">13g Carbs | 75g Protein | 144g Total Fat</span>`
+                    }
+                ]
+            },
+            {
+                id: 8,
+                icon: 'plate',
+                title: 'Example Diet: Day 2',
+                sections: [
+                    {
+                        desc: `<small>A day of the keto diet.<br> Totals may vary depending on individual needs.</small>`
+                    },
+                    {
+                        heading: 'Breakfast',
+                        desc: `Coconut raspberry chia pudding`
+                    },
+                    {
+                        heading: 'Lunch',
+                        desc: `Creamy zucchini soup with bacon strips`
+                    },
+                    {
+                        heading: 'Dinner',
+                        desc: `Chorizo & blue cheese omelette`
+                    },
+                    {
+                        desc: `<span class="highlight">18g Carbs | 78g Protein | 148g Total Fat</span>`
+                    }
+                ]
+            },
+            {
+                id: 9,
+                icon: 'scale',
+                title: 'Bonus Tips',
+                sections: [
+                    {
+                        title: 'Motivation',
+                        desc: `Keto can be really tough in the beginning as your body adapts to burn fat instead of glucose:`
+                    },
+                    {
+                        desc: `To stay motivated, it helps to formulate a clear goal and/or find a diet buddy!`
+                    },
+                    {
+                        title: 'Healthy Lifestyle',
+                        desc: `Food is important, but it isn't everything: Make sure to get enough sleep, exercise & manage your stress levels.`
+                    }
+                ]
+            }
         ];
     }
 
