@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class ConfigProvider {
-    public APP_NAME = 'Keto Klone Trainer';
+    public APP_NAME = 'Ultimate Keto & Ketogenesis Recipes';
     public WEBSITE_SHORT = 'ketokloneapp.com';
     public WEBSITE_URL = 'http://www.ketokloneapp.com';
     public CONTACT_EMAIL = 'contact@ketokloneapp.com';
@@ -24,7 +24,7 @@ export class ConfigProvider {
     trial period will be forfeited when subscribing to a non-trial plan`;
 
 
-    public REVIEW_TITLE = 'scallywag dance the hempen';
+    public REVIEW_TITLE = 'Real People, Real Results';
     public REVIEW_OVERALL_RATING = '4.9';
     public REVIEW_OVERALL_DESC = 'Based on 499 ratings, 30 reviews';
 
@@ -34,16 +34,16 @@ export class ConfigProvider {
     public PAYMENT_TITLE = 'boom mizzenmast';
     public PAYMENT_DESCRIPTION = 'Prow scuttle parrel provost Sail ';
     public PAYMENT_TAGLINE = 'Join Thousands of Happy Users';
-    public PAYMENT_BYLINE = `red ensign hulk smartly!`;
+    public PAYMENT_BYLINE = `Accelerate Your Fat Burning`;
     public PAYMENT_BULLETS = [
-        'yardarm spyglass sheet ',
-        'broadside cable strike colors.',
-        'seven seas boatswain schooner',
-        'black jack gangway rutters.'
+        '100+ Mouthwatering Keto Recipes',
+        'Ketogenesis Tips and Tricks',
+        'New Recipes Added Each Week',
+        'Maintaining Keto and Conquering The Keto Flue'
     ];
 
-    public PAYMENT_RETENTION_TITLE = `Are you sure you don’t want want access to one of the top training guides?`;
-    public PAYMENT_RETENTION_TEXTONE = `Thousands of people already use Keto Klone to train their dog, whether it’s basic house/potting training or for more advanced move like shake.`;
+    public PAYMENT_RETENTION_TITLE = `Are you sure you don’t want access to the TOP Keto receipes?`;
+    public PAYMENT_RETENTION_TEXTONE = `Thousands of people already use Keto Recipes to burn fat, lose weight, and gain energy.`;
     public PAYMENT_RETENTION_TEXTTWO = `It’s a totally free trial, that you can cancel anytime!`;
     public PAYMENT_RETENTION_SUCCESS = `Try ${this.APP_NAME} Free Trial`;
     public PAYMENT_RETENTION_DISMISS = `No Thanks`;
