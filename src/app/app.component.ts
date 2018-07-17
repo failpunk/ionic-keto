@@ -35,7 +35,7 @@ export class MyApp {
         public splashScreen: SplashScreen,
         public auth: AuthProvider,
         public subscription: SubscriptionProvider,
-        private mixpanel: Mixpanel,
+        private mixpanel: Mixpanel
     ) {
         this.isDev = this.checkDev();
 
@@ -56,10 +56,15 @@ export class MyApp {
         return (<any>window)['IonicDevServer'] != undefined;
     }
 
-    initParse() {
+    async initParse() {
         Parse.initialize(this.config.PARSE_APP_ID, this.config.PARSE_JAVASCRIPT_KEY);
 
         Parse.serverURL = this.config.PARSE_SERVER_URL;
+
+        let config = await Parse.Config.get();
+        this.config.addServerConfig(config);
+
+        console.log('this.config.REVIEW_TITLE', this.config.REVIEW_TITLE);
     }
 
     initAnalytics() {

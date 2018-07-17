@@ -23,7 +23,6 @@ export class ConfigProvider {
     off automatic renewal in the accoutn settings of your Apple ID at any time. Any unused portion of a free
     trial period will be forfeited when subscribing to a non-trial plan`;
 
-
     public REVIEW_TITLE = 'Real People, Real Results';
     public REVIEW_OVERALL_RATING = '4.9';
     public REVIEW_OVERALL_DESC = 'Based on 499 ratings, 30 reviews';
@@ -47,4 +46,16 @@ export class ConfigProvider {
     public PAYMENT_RETENTION_TEXTTWO = `It’s a totally free trial, that you can cancel anytime!`;
     public PAYMENT_RETENTION_SUCCESS = `Try ${this.APP_NAME} Free Trial`;
     public PAYMENT_RETENTION_DISMISS = `No Thanks`;
+
+    /**
+     * Merge the server config keys in as properties
+     */
+    addServerConfig(parseConfig) {
+        let attrs = parseConfig.attributes;
+
+        Object.keys(attrs).map(k => {
+            console.log('k', k, attrs[k]);
+            this[k] = attrs[k];
+        });
+    }
 }
