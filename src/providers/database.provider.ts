@@ -445,7 +445,7 @@ export class DatabaseProvider {
                     'Freshly ground black pepper',
                     '1 tbsp. freshly chopped chives'
                 ],
-                img: '-min.jpg',
+                img: 'masonJarOmelets-min.jpg',
                 directions: [
                     `If baking, preheat oven to 350°`,
                     `Grease two 16-ounce mason jars with nonstick cooking spray.`,

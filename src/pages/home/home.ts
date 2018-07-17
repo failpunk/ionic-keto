@@ -29,7 +29,7 @@ import { TipsPage } from '../tips/tips';
             <ion-item 
                 class="image-list__item bg"
                 (click)="goToInfo()" 
-                [ngStyle]="{'background-image': 'url(assets/imgs/list/breakfast-foods.jpg)'}">
+                [ngStyle]="{'background-image': 'url(assets/imgs/list/tips.jpg)'}">
         
                 <h2>About the Keto Diet</h2>
                 <p>Learn how it works and how to succeed</p>
